@@ -1,0 +1,151 @@
+Ucitavanje:
+
+	<script>...</script>
+
+	<script src="..."></script>
+
+Komentari:
+
+	//
+
+	/* */
+	
+Ispis:
+
+	document.write()
+	
+	window.alert()
+	
+	console.log()
+	
+Promenljive:
+
+	var, let, const
+	
+	null
+
+Operatori:
+
+	aritmeticki: + - * / % ++ -- += -= *= /= %=
+	
+	bitski: & | ^ ~ << >> >>>
+	
+	logicki: && || !
+	
+	poredjenje: == != > >= < <= === !==
+	
+	ternarni: ... ? ... : ...
+	
+Kontrola toka:
+
+	{...}
+	
+	if ... else if ... else, switch
+	
+	while, do ... while, for, for ... in, for ... of
+	
+	break, continue
+
+	function, return
+
+Globalne funkcije:
+			
+	escape, unescape, eval, parseInt
+
+Objekti:
+	
+	Number:
+		
+		osnova 8, 10, 16
+		
+		decimalna tacka .
+		
+		osobine/konstante:
+		
+			MAX_VALUE, MIN_VALUE
+	
+		metode:
+		
+			isNan, toFixed
+	
+	String:
+		
+		"..." ili '...'
+		
+		\b \f \n \r \t
+		
+		konverzija
+		
+		osobine:
+		
+			length
+		
+		metode:
+		
+			link, big, bold, italics, fontcolor, fontsize, strike, sub, sup
+			
+			toLowerCase, toUpperCase, charAt, indexOf, lastIndexOf, substring
+	
+	Boolean:
+	
+		true, false
+	
+	Math:
+		
+		metode:
+			
+			round, ceil, floor, random, min, max, sqrt, abs
+		
+			sin, cos, tan
+		
+		osobine/konstante:
+		
+			PI, E
+	
+	Array:
+	
+		new Array(), []
+		
+		osobine:
+		
+			length
+		
+		metode:
+			
+			sort, reverse, concat, join, slice, push, pop, toString, splice
+			
+	Date:
+		
+		new Date()
+		
+		metode:
+		
+			parse, UTC
+			
+			getFullYear, getMonth, getDate, getHours, getMinutes, getSeconds, getTime, getDay, getTimezoneOffset
+			
+			setFullYear, setMonth, setDate, setHours, setMinutes, setSeconds, setTime
+			
+			toGMTString, toLocaleString
+		
+	RegExp:
+	
+		new RegExp(), /.../
+		
+HTML DOM:
+
+	document:
+	
+		write(), writeline()
+		
+		createElement(), appendChild(), removeChild(), replaceChild()
+		
+		getElementByID(), getElementsByTagName(), getElementsByClassName()
+		
+		innerHTML, attribute, style.property, setAttribute()
+		
+	Dogadjaji:
+	
+		onclick, ondblclick
+		
+		onmouseover, onmouseout
